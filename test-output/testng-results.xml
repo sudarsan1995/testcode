@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76" started-at="2021-01-13T16:44:45 IST" finished-at="2021-01-13T16:44:46 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76" started-at="2021-01-13T16:44:45 IST" finished-at="2021-01-13T16:44:46 IST">
+      <class name="testNg.AnnotationConcept">
+        <test-method status="PASS" signature="modulo()[pri:0, instance:testNg.AnnotationConcept@6325a3ee]" name="modulo" is-config="true" duration-ms="15" started-at="2021-01-13T16:44:45 IST" finished-at="2021-01-13T16:44:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modulo -->
+        <test-method status="PASS" signature="percentage()[pri:0, instance:testNg.AnnotationConcept@6325a3ee]" name="percentage" is-config="true" duration-ms="0" started-at="2021-01-13T16:44:45 IST" finished-at="2021-01-13T16:44:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- percentage -->
+        <test-method status="PASS" signature="subtration()[pri:0, instance:testNg.AnnotationConcept@6325a3ee]" name="subtration" duration-ms="10" started-at="2021-01-13T16:44:46 IST" finished-at="2021-01-13T16:44:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtration -->
+        <test-method status="PASS" signature="division()[pri:0, instance:testNg.AnnotationConcept@6325a3ee]" name="division" is-config="true" duration-ms="0" started-at="2021-01-13T16:44:46 IST" finished-at="2021-01-13T16:44:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- division -->
+      </class> <!-- testNg.AnnotationConcept -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

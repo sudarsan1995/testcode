@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="URL" value="www.google.co.in"/>
+  <test thread-count="5" name="ADDSubtract">
+  <parameter name="URL1" value="www.yahoo.co.in"/>
+   <parameter name="username" value="abcdefgh"/>
+    <classes>
+      <class name="testNg.DemoProgram"/>
+      <class name="testNg.DemoProgram4">
+      
+      <methods>
+      <exclude name="Mobile.*"/>
+      </methods>
+      </class>
+      
+      
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="MultiplyDivision">
+    <classes>
+      <class name="testNg.DemoProgram2">
+       <methods>
+      <include name="division"/>
+      </methods>
+      </class>
+      <class name="testNg.DemoProgram3">
+      <methods>
+      <exclude name="modulo"/>
+      </methods>
+      </class>
+      
+    </classes>
+  </test> 
+</suite> 
