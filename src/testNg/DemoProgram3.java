@@ -23,4 +23,15 @@ public class DemoProgram3 {
 		
 		System.out.println("arithmetic value is     " +f);
 	}
+	
+	
+	public void abcd()
+	{
+		int a=3;
+		int b=5;
+		int c=a%b;
+		
+		System.out.println("Modulo value is     " +c);
+	}
+	
 }
